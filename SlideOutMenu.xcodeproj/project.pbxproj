@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		C31560292267528900C83A51 /* BaseSlidingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31560282267528900C83A51 /* BaseSlidingController.swift */; };
+		C315602C226842F800C83A51 /* CustomMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315602B226842F800C83A51 /* CustomMenuHeaderView.swift */; };
+		C315602E2268452800C83A51 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315602D2268452800C83A51 /* SpacerView.swift */; };
+		C315603122684D9E00C83A51 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315602F22684D9E00C83A51 /* ProfileImageView.swift */; };
+		C315603222684D9E00C83A51 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315603022684D9E00C83A51 /* MenuItemCell.swift */; };
+		C3156035226852E100C83A51 /* ListsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3156033226852E100C83A51 /* ListsController.swift */; };
+		C3156036226852E100C83A51 /* BookmarksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3156034226852E100C83A51 /* BookmarksController.swift */; };
+		C31560392268612700C83A51 /* ChatroomsMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31560372268612700C83A51 /* ChatroomsMenuController.swift */; };
+		C315603A2268612700C83A51 /* ChatroomMenuContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31560382268612700C83A51 /* ChatroomMenuContainerController.swift */; };
+		C315603D2268616500C83A51 /* ChatroomMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315603B2268616500C83A51 /* ChatroomMenuCell.swift */; };
+		C315603E2268616500C83A51 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315603C2268616500C83A51 /* Extensions+UIView.swift */; };
 		C3FF3BAB2266EE6A00ED92A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3BAA2266EE6A00ED92A8 /* AppDelegate.swift */; };
 		C3FF3BAD2266EE6A00ED92A8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FF3BAC2266EE6A00ED92A8 /* HomeController.swift */; };
 		C3FF3BB02266EE6A00ED92A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FF3BAE2266EE6A00ED92A8 /* Main.storyboard */; };
@@ -18,6 +28,16 @@
 
 /* Begin PBXFileReference section */
 		C31560282267528900C83A51 /* BaseSlidingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseSlidingController.swift; sourceTree = "<group>"; };
+		C315602B226842F800C83A51 /* CustomMenuHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMenuHeaderView.swift; sourceTree = "<group>"; };
+		C315602D2268452800C83A51 /* SpacerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		C315602F22684D9E00C83A51 /* ProfileImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		C315603022684D9E00C83A51 /* MenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		C3156033226852E100C83A51 /* ListsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListsController.swift; sourceTree = "<group>"; };
+		C3156034226852E100C83A51 /* BookmarksController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarksController.swift; sourceTree = "<group>"; };
+		C31560372268612700C83A51 /* ChatroomsMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatroomsMenuController.swift; sourceTree = "<group>"; };
+		C31560382268612700C83A51 /* ChatroomMenuContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatroomMenuContainerController.swift; sourceTree = "<group>"; };
+		C315603B2268616500C83A51 /* ChatroomMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatroomMenuCell.swift; sourceTree = "<group>"; };
+		C315603C2268616500C83A51 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
 		C3FF3BA72266EE6A00ED92A8 /* SlideOutMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideOutMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FF3BAA2266EE6A00ED92A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3FF3BAC2266EE6A00ED92A8 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,19 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		C315602A226842D900C83A51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C315602B226842F800C83A51 /* CustomMenuHeaderView.swift */,
+				C315603022684D9E00C83A51 /* MenuItemCell.swift */,
+				C315602F22684D9E00C83A51 /* ProfileImageView.swift */,
+				C315602D2268452800C83A51 /* SpacerView.swift */,
+				C315603B2268616500C83A51 /* ChatroomMenuCell.swift */,
+				C315603C2268616500C83A51 /* Extensions+UIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C3FF3B9E2266EE6900ED92A8 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +99,7 @@
 		C3FF3BA92266EE6A00ED92A8 /* SlideOutMenu */ = {
 			isa = PBXGroup;
 			children = (
+				C315602A226842D900C83A51 /* Views */,
 				C3FF3BBC226702D000ED92A8 /* Controllers */,
 				C3FF3BAA2266EE6A00ED92A8 /* AppDelegate.swift */,
 				C3FF3BAE2266EE6A00ED92A8 /* Main.storyboard */,
@@ -82,6 +116,10 @@
 				C31560272267525200C83A51 /* Base */,
 				C3FF3BAC2266EE6A00ED92A8 /* HomeController.swift */,
 				C3FF3BBD226702F100ED92A8 /* MenuController.swift */,
+				C3156034226852E100C83A51 /* BookmarksController.swift */,
+				C3156033226852E100C83A51 /* ListsController.swift */,
+				C31560382268612700C83A51 /* ChatroomMenuContainerController.swift */,
+				C31560372268612700C83A51 /* ChatroomsMenuController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -157,10 +195,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C315603E2268616500C83A51 /* Extensions+UIView.swift in Sources */,
 				C3FF3BAD2266EE6A00ED92A8 /* HomeController.swift in Sources */,
+				C315603222684D9E00C83A51 /* MenuItemCell.swift in Sources */,
+				C315603122684D9E00C83A51 /* ProfileImageView.swift in Sources */,
 				C3FF3BBE226702F100ED92A8 /* MenuController.swift in Sources */,
+				C315602E2268452800C83A51 /* SpacerView.swift in Sources */,
+				C315603A2268612700C83A51 /* ChatroomMenuContainerController.swift in Sources */,
+				C31560392268612700C83A51 /* ChatroomsMenuController.swift in Sources */,
 				C3FF3BAB2266EE6A00ED92A8 /* AppDelegate.swift in Sources */,
+				C315602C226842F800C83A51 /* CustomMenuHeaderView.swift in Sources */,
+				C3156035226852E100C83A51 /* ListsController.swift in Sources */,
+				C315603D2268616500C83A51 /* ChatroomMenuCell.swift in Sources */,
 				C31560292267528900C83A51 /* BaseSlidingController.swift in Sources */,
+				C3156036226852E100C83A51 /* BookmarksController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
