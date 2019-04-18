@@ -1,10 +1,9 @@
 //
 //  MenuItemCell.swift
-//  SlideOutMenuLBTA
+//  SlideOutMenu
 //
-//  Created by Brian Voong on 10/3/18.
-//  Copyright © 2018 Brian Voong. All rights reserved.
-//
+//  Created by Administrator on 17/04/2019.
+//  Copyright © 2019 Administrator. All rights reserved.
 
 import UIKit
 
